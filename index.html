@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API | Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main class="body">
+        <h1>Google Form Anti Curang</h1>
+        <article class="form">
+            <input id="input" class="form-input" placeholder="Masukan link google form!"/>
+            <button id="generate" class="form-button">Buat Link Laporan Kecurangan</button>
+        </article>
+        <div id="results" style="display: none;">
+            <section>
+                <h1>Link Google Form untuk di share ke siswa/siswi:</h1>
+                <kbd id="formLink"></kbd>
+            </section>
+            <section>
+                <h1>Link pemantauan laporan kecurangan:</h1>
+                <kbd id="reportLink"></kbd>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

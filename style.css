@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body {
+    padding: 1rem;
+}
+.form {
+    display: flex;
+    margin-top: 0.5rem;
+}
+.form-input {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    width: 100%;
+}
+.form-button {
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px green solid;
+    background-color: greenyellow;
+    
+}
+.form-button:hover {
+    background-color: aquamarine;
+}
+@media only screen and (max-width: 600px) {
+    .form {
+        flex-direction: column;
+    }
+}
+kbd { 
+    font-size: 1.5rem;
+}
